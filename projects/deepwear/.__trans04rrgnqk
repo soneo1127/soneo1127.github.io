@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../../static/style.css">
-<title>Optimized HMD System for Underwater VR Experience — soneoLektor</title>
+<title>DeepWear — soneoLektor</title>
 <body>
   <header>
     <h1>soneo</h1>
@@ -20,7 +20,7 @@
   </header>
   <div class="page">
     
-  <h2>Optimized HMD System for Underwater VR Experience</h2>
+  <h2>DeepWear</h2>
   <p>We proposed HMD suitable for underwater use. We optically internally designed the HMD so that it can be seen with a wide viewing angle even if the internal structure is filled with water. We can enjoy VR underwater with less environment setting.</p>
 <p>Hiroyuki Osone＊1, Takatoshi Yoshida＊2, Yoichi Ochiai＊1</p>
 <p>＊1 Unibersity of Tsukuba, ＊2 The University of Tokyo</p>
