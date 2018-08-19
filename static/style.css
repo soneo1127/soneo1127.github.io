@@ -37,6 +37,13 @@ header nav ul li {
     padding: 0;
 }
 
+div.inner { margin:0 10px; }
+
 div.page {
     background: #f1fbfe;
+    float:center;
+}
+
+div.side {
+    width:250px; float:right;
 }
