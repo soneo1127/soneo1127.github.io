@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../../static/style.css">
-<title>DeepWear — soneoLektor</title>
+<title>2D Image Posterization by FPGA — soneoLektor</title>
 <body>
 
 <!-- Twitter -->
@@ -14,32 +14,26 @@
     <nav>
       <ul class="nav navbar-nav">
         <li><a href="../../">Welcome</a></li>
-        
+
           <li class="active"><a href="../../projects/">Projects</a></li>
-        
+
           <li><a href="../../publication/">Publication</a></li>
-        
+
           <li><a href="../../about/">About</a></li>
-        
+
         <li><a href="https://soneo.hatenablog.com/">Blog</a></li>
       </ul>
     </nav>
   </header>
   <div class="inner">
     <div class="page">
-      
-  <h2>DeepWear</h2>
-  <p>We present DeepWear, a method using deep convolutional generative adversarial networks (DCGANs) for clothes design. Deep neural networks (DNNs) learn the feature of specific brand clothes and generate images, then patterns instructed from the images are made, and an author creates clothes based on that. We evaluated this system by evaluating the credibility of the actual sold clothes on market with our clothes. As the result, we found it is possible to make clothes look like actual products from the generated images. Our findings have implications for collaborative design between machine and human intelligence.</p>
-<p>Natsumi Kato, Hiroyuki Osone, Daitetsu Sato, Naoya Muramatsu and Yoichi Ochiai</p>
-<p>本研究では, 衣服設計のために深層畳込み生成的対立ネットワーク（DCGANs）を使用する方法であるDeepWearを提案する. 深層学習により特定のブランドの服の特徴を学習させて画像を生成し, その生成画像を指示元としてパタンナーに服の型紙を描いてもらい, 服を作った. 実際に販売されたブランド服と比較することによって, このシステムの信頼性を評価した. 結果として, 生成画像から実際の製品のように服を作ることが可能であることがわかり，機械と人間の知性の間の協調設計に示唆を与えると考えている．</p>
-<p>加藤奈津実, 大曽根宏幸, 佐藤大哲, 村松直哉, 落合陽一</p>
-<p>PUBLICATION
-Natsumi Kato＊, Hiroyuki Osone＊, Daitetsu Sato, Naoya Muramatsu, and Yoichi Ochiai. 2017. Crowd Sourcing Clothes Design Directed by Adversarial Neural Networks. In NIPS 2017 Workshop (NIPS ’17). 
-<a href="https://nips2017creativity.github.io/">https://nips2017creativity.github.io/</a>
- (＊ Joint first authorship)</p>
-<p>Natsumi Kato＊, Hiroyuki Osone＊, Daitetsu Sato, Naoya Muramatsu, and Yoichi Ochiai. 2018. DeepWear: a Case Study of Collaborative Design between Human and Artificial Intelligence. In Proceedings of the Twelfth International Conference on Tangible, Embedded, and Embodied Interaction (TEI ’18). ACM, New York, NY, USA, 529-536. 
-DOI: <a href="https://doi.org/10.1145/3173225.3173302">https://doi.org/10.1145/3173225.3173302</a> (＊ Joint first authorship)</p>
 
+  <h2>Posterization of Captured Image by FPGA</h2>
+  <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">キャプチャ画像のポスタリゼーションやりました<br>(ほんとは空間フィルタやりたかったけど間に合わなかった) <a href="https://t.co/QtYtuMWLRR">pic.twitter.com/QtYtuMWLRR</a></p>&mdash; ソネットそねお🔜技術書典6「こ20」 (@ATH_ray_) <a href="https://twitter.com/ATH_ray_/status/1093041986670538752?ref_src=twsrc%5Etfw">February 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <p>This is a posterization of an image captured by an FPGA. This is created at the Campus OJT hardware course at University of Tsukuba. As we convert every pixel, it is faster than general image conversion.</p>
+<p>Hiroyuki Osone</p>
+<a href="http://www.cojt.or.jp/tkb/curriculum/index.html#b">組み込み技術キャンパスOJT ハードウェアコース</a>で作成した、FPGAによるキャプチャ画像のポスタリゼーションです。画素ごとに変換しているので、一般の画像変換よりも速いです。</p>
+<p>大曽根宏幸</p>
 
     </div>
   </div>
